@@ -1,0 +1,34 @@
+Section 1:
+
+1. Create DTO and Controllers
+2. Implement GET Method
+3. Implement Post Method
+4. Handling Response
+5. Specific Exception handling
+6. Overall project Exception handling
+7. Implement DELETE Method
+
+============
+model == pojo
+dao -->  provide information to controller
+
+Section 2:
+================
+1.Exception Handling
+2. Validation (validation dependency)
+3. Implement Hateoas(dependency)
+4. Content Negotiation (jackson dependency)
+
+Section 3:
+==============
+Swagger Documentation
+http://localhost:8080/v2/api-docs (In postman)
+http://localhost:8080/swagger-ui/ (In web browser)
+
+
+=========
+Actuator
+1. Starter Actuator - Collect all API details
+2. Hal Browser - To visualize the data
+http://localhost:8080/actuator
+http://localhost:8080/browser/index.html
